@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>Unit 9 Lab Exercise 4</title>
+</head>
+    <body>
+        <script>
+             var myTime = new Date();
+        myTime.setUTCHours(20);
+        myTime.setUTCMinutes(30);
+        myTime.setUTCSeconds(0);
+
+        var myTimeSet = "<p>" +  myTime.toUTCString() + "</p>";
+        myTimeSet += "<p>" +  myTime.toLocaleString() + "</p>";
+
+        document.write(myTimeSet);
+        </script>
+    </body>
+</html>
